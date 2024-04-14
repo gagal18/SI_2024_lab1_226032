@@ -1,0 +1,27 @@
+
+4) git init -> Команда која иницијализира локален гит репозиториум.
+5) git remote add origin https://github.com/gagal18/SI_2024_lab1_226032.git -> Додавање на далечински репозиториум(врска)
+6) vim README.md | git add . | git commit -m"Initial commit" -> Креирање на датотека која содржи податоци за нас, Додавање на сите фајлови, commit на додадените фајлови
+7) git add . | git commit -m"Add starter code" -> Истиот процес како и 6
+8) git push -u origin master -> Бидејќи е само мастер гранката решив да синхронизирам со оваа команда
+9) /
+10) git checkout -b bug1 (Најпрво со оваа команда креирам и се префрлам на bug1)
+11) vim SILab1_1.java | git add . | git commit -m"Fix wrong condition in filterOddLengthStrings" -> Процесот од чекор 6 (додавање на commit)
+12) git checkout -b bug2 (Пред да го направам ова се вратив на мастер [git checkout master])
+13) vim SILab1_2.java | git add . | git commit -m"Fix wrong condition in makeBigStringFrom" -> Процесот од чекор 6 (додавање на commit)
+14) git checkout bug1 -> Префрлање на bug1
+15) vim SILab1Main.java | git add . | git commit -m"Call method filterOddLengthStrings in main class" -> Процесот од чекор 6 (додавање на commit)
+16) git checkout bug2 -> Префрлање на bug2
+17) vim SILab1Main.java | git add . | git commit -m"Call method makeBigStringFrom in main class" -> Процесот од чекор 6 (додавање на commit)
+18) git push --all origin -> Синхронизација со далечински репозиториум
+19) git checkout master -> Префрлање на master
+20) git merge bug1 -> Спојување на bug1 кон master
+21) git push --all origin -> Синхронизација со далечински репозиториум
+22) git checkout bug2 -> Префрлање на bug2
+23) git rebase master | git rebase --continue -> Rebase од мастер, кој јавува конфликти во фајлот SILab1Main.java. Повикот на методите е на иста линија. Го решив така што прифатив комбинација од двете. Продолжив со командата 
+24) git checkout master -> Префрлање на master
+25) git merge bug2 -> Спојување на bug2 кон master
+26) git push --all origin -> Синхронизација со далечински репозиториум
+27) git push --all origin --force -> Синхронизација со далечински репозиториум, користење на --force
+28) git log >> logs.txt -> Додавање на 226032.txt, logs.txt и креирање последен commit
+29) git push --all origin

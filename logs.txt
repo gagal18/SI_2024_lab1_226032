@@ -1,0 +1,35 @@
+commit 1525727803d0d0d1bd7c26160e2ec876700ebcd9
+Author: gagal18 <gagaleskibojan@gmail.com>
+Date:   Sun Apr 14 18:58:15 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 6fdb9cdca8c117a3cac314c488b73a75a655d0d9
+Author: gagal18 <gagaleskibojan@gmail.com>
+Date:   Sun Apr 14 18:54:13 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 39e2f8268ef1ecc93fee6247019ff44f8e89d4ea
+Author: gagal18 <gagaleskibojan@gmail.com>
+Date:   Sun Apr 14 18:56:49 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit a191cd148a10df9bd282faacb427003f4928d84e
+Author: gagal18 <gagaleskibojan@gmail.com>
+Date:   Sun Apr 14 18:52:45 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 8d3bdeddba3aa270ec7775b4def17da1b2ba33c5
+Author: gagal18 <gagaleskibojan@gmail.com>
+Date:   Sun Apr 14 18:50:02 2024 +0200
+
+    Add starter code
+
+commit f7c7aee26d391a2232dab3ccf12bf622e8b5749e
+Author: gagal18 <gagaleskibojan@gmail.com>
+Date:   Sun Apr 14 18:45:28 2024 +0200
+
+    Initial commit
